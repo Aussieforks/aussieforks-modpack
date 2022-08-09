@@ -45,12 +45,8 @@ Later, updating to the latest version is easy to do with:
 
 After you create your world at the main menu in minetest, you shouldn't just enable all of the mods. Instead, you should merge the contents of the provided template file `world.mt` into your new world's `world.mt`.
 
-Finally there is at least one configuration change to add to minetest: The default items! To have all new players be given the same initial items as on LinuxForks server, you need to enable the setting `give_initial_stuff` and set the minetest setting `initial_stuff` to have the right value. Add the following lines to your `minetest.conf`:
-
-```
-initial_stuff = default:torch 99,farming:hoe_steel,farming:rhubarb 2,farming:potato 2,farming:blueberries,default:pick_wood,default:stick,currency:minegeld_5 5
-give_initial_stuff = true
-```
+A minetest.conf template will also be provided because the AussieForks server
+uses custom mapgen flags.
 
 ## Licences
 Some of the mods in this modpack are licensed under permissive licences like WTFPL and the MIT license. Others use copyleft licences like the GNU General Public License. More importantly, some of them are licensed under the GNU Affero General Public License (AGPL). This means that **if you modify any of those AGPL-licensed mods and use them on your minetest server, you must make the source code of your changed version available somewhere**.
@@ -286,23 +282,18 @@ Adds a crafting guide sign and crafting guide book to the game. Interacting with
 * Mod author: Jean-Patrick Guerrero
 
 ### currency
-Adds currency in the form of banknotes and some means to keep your items safe and safely trade.
-
-The banknotes are of the fictional currency 'MineGeld' (MG). They come in 1 MG, 5 MG and 10 MG varieties. The banknotes can be exchanged for equivalent value by crafting; for example 5 1MG notes can make a 5MG note and a 10 MG note can be broken into 2 5MG notes. This modpack is also supposed to include the '1000 MG' commemorative banknotes (TODO, but the repository may not be up to date yet). These are used on the LinuxForks server as a limited-supply item released roughly each month.
-
-Players are given currency as universal basic income every day (720 seconds) they place or break a node.
-
-Also includes the safe, which is like a lower-capacity locked chest, but which has no skeleton key support. The skeleton keys you give someone for access to an ordinary chest may be distributed to others without your knowledge, but nobody can access your safe, except admins with the `protection_bypass` privilege.
-
-Includes the barter table, a safe way to trade items instead of dropping them on the ground. Two players can put up to 12 items on their respective sides of the table. Minegeld notes might be some of the items used. To complete a transaction, both players must press confirm not once but twice. The items on offer cannot be switched after pressing confirm the first time, so you can be sure your trading partner will not switch their offer before you accept it. Transactions can also be cancelled. Unfortuntaly, barter tables are sometimes left partway through a transaction making them not useable to other parties and there is no easy fix to this yet.
+Adds fiat currency banknotes, Universal basic income, two way to trade and a
+safe for storage.
 
 Another way to trade is to use an exchange shop. The exchange shop allows you to offer stock at a set price and receive the payment of items securely into your shop to pick up later. The exchange shop is similar to the smartshop (also included in this modpack) except it looks like a chest, and does not/has never effect the item metadata (this was, at least historically, the main reason smartshops were avoided for sales of items like books and digtron crates). You may prefer to use `smartshops` since they support pipeworks.
 
 * Original Mod author: Dan Duncombe
-* Upstream maintained by: VanessaE
+* Upstream previously maintained by: VanessaE
+* Mainline Maintained by mt-mods
 * Contributions by many others
 * LinuxForks Maintainer: gpcf
-* Commemorative note artwork by various contributors, see [this wiki page](https://wiki.linux-forks.de/mediawiki/index.php/Forks:Commemorative_Currency).
+* AussieForks Maintainer: Blockhead
+* See currency/README.md for more information
 
 ### digilines
 Adds digital data transfer wires. They are used to send and receive data on channels. Many of the machines in technic support sending and receiving messages for control and data purposes; unfortunately mostly this is not well-documented and you will have to read the source or ask for help.
@@ -479,12 +470,18 @@ Hume2's `hiking_redo`. Adds a set of hiking signs for guiding people through tra
 * hiking_redo author: Hume2
 * Original mod author: martian
 
-### TODO Missing: Itemframes
 
 ### intllib
 Internationali[sz]ation library for minetest. Deprecated under minetest 5.x and usually included within mods rather than on its own. Still, it is provided because it is loaded on LinuxForks and I am unsure whether anything depends on that.
 
 * Mod author: kaeza
+
+### itemframes
+Adds item frames and pedestals which can hold nodes and items. Only the owner of the item frame or pedestal can modify what's inside. Warning: do not put billboards inside the item frame! Doing so will cause a massive lag spike when the entity loads as the texture is resampled on the fly!
+
+TODO rename minetest_itemframes -> itemframes
+
+* Mod author: Zeg9, with contributions from VanessaE
 
 ### jre_e231
 LinuxForks branch of JRE E231 modpack. Adds a East Japan Railway Company E231 and E230 set of carriages.
@@ -608,12 +605,6 @@ TODO rename minetest_hudbars -> hudbars
 * Maintainer: Wuzzy
 * See minetest_hudbars/README.md for more information.
 
-### minetest_itemframes
-Adds item frames and pedestals which can hold nodes and items. Only the owner of the item frame or pedestal can modify what's inside. Warning: do not put billboards inside the item frame! Doing so will cause a massive lag spike when the entity loads as the texture is resampled on the fly!
-
-TODO rename minetest_itemframes -> itemframes
-
-* Mod author: Zeg9, with contributions from VanessaE
 
 ### minetest_worldedit
 Commands for doing edits to the game world. Unfortunately can often leave behind lighting errors. `mapfix` (included in this modpack) should help with the lighting errors.
