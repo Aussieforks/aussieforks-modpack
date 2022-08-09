@@ -149,6 +149,13 @@ A mod that allows players to keep an electronic bank balance. Players can deposi
 
 TODO: There is a known issue where putting certain characters into a wire transfer message can result in failing to draw the interface for the transaction history if you are the sender or recipient of such a message. This is probably fixable with minetest.formspec_escape().  
 
+TODO: Aussie ATMS:
+* Tier 1: $20 and $50 withdrawals only, stacks of 1 or 5 . Basic button texture.
+* Tier 2: Deposits of any note, up to stack of 10. $20 and $50 withdrawals, 1,
+5, or 10 at a time. Touchscreen.
+* Tier 3: Deposits of any note, withdrawls of any note, 1, 10 or 100 at a time.
+"Smart ATM" branding.
+
 See atm/README.md for more information.
 
 * Mod author: gpcf
@@ -159,10 +166,14 @@ Replaces the biomes with a variety Australian ones with Australian grasses, tree
 
 Fork from Josselin2/axcore that updates it for Minetest 5.5.1 (previously was targeted at 0.4.x).
 
-TODO: Montandalar/Blockhead fork that adds european crops to ships and dungeons when farming redo is present.
-TODO: Colour grade bluestone
-TODO: try the outback minerals
-FIXME: that block of wood on top of trees
+TODOs:
+* Colour grade bluestone.
+* Biome code de-duplication.
+* Move ABMs to LBMs or nodetimers wherever it makes sense (loot chests etc).
+* Fix submarine rarity, possibly add to more biomes.
+* Move schematics to .mts/serialized table format, generated at dev time not
+load time.
+* Biome enablement flags like ethereal
 
 * Mod author: vlapsley/demonboy
 * Fixes by: Josselin2/axcore
@@ -285,7 +296,7 @@ Adds a crafting guide sign and crafting guide book to the game. Interacting with
 Adds fiat currency banknotes, Universal basic income, two way to trade and a
 safe for storage.
 
-Another way to trade is to use an exchange shop. The exchange shop allows you to offer stock at a set price and receive the payment of items securely into your shop to pick up later. The exchange shop is similar to the smartshop (also included in this modpack) except it looks like a chest, and does not/has never effect the item metadata (this was, at least historically, the main reason smartshops were avoided for sales of items like books and digtron crates). You may prefer to use `smartshops` since they support pipeworks.
+FIXME: Metadata bug, use patch from gpcf. Contribute it to mt-mods as well.
 
 * Original Mod author: Dan Duncombe
 * Upstream previously maintained by: VanessaE
