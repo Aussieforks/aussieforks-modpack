@@ -301,3 +301,9 @@
 [submodule "xban2"]
 	path = xban2
 	url = http://git.bananach.space/xban2.git/
+[submodule "postool"]
+	path = postool
+	url = https://github.com/SwissalpS/postool
+[submodule "glider"]
+	path = glider
+	url = https://github.com/CBugDCoder/glider
