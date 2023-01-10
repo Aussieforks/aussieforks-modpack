@@ -188,6 +188,8 @@ A component in two parts: A CGI script and a minetest mod. Together they facilit
 ### bakedclay
 A rudimentary mod that allows player to bake clay into hardened blocks and stain those blocks with dyes. All of the baked clay blocks can be made into stairs and slabs as well. 
 
+TODO: Update for terracotta
+
 * See bakedclay/README.md for more information
 
 * Mod author: TenPlus1
@@ -439,6 +441,9 @@ The feedlot mod also includes the milker, which can accept a bucket and hold up 
 
 * Mod author: gpcf
 * [Forum thread](https://forum.minetest.net/viewtopic.php?t=18811)
+
+### foodblocks
+TODO: Add me
 
 ### formspecs
 ActiveFormspecs, a library for safe & secure formspec handling. So far only used by `console`.
@@ -834,6 +839,9 @@ This fork of technic is quite diverged from the mainstream and may be different 
 * [Forum thread](https://forum.minetest.net/viewtopic.php?t=2538)
 * For more information, see technic/README.md
 
+### telemosaic
+ADDME
+
 ### teleport_potion
 Adds an item and a node for teleportation. The teleport potion, can be used for one-time teleportation at the cost of 4 diamonds. The teleport pad can be crafted out of 4 teleport potions. You can enter any coordinates into the teleport pad to enchant its location, then step onto the pad to teleport to the target.
 
@@ -868,6 +876,11 @@ Adds the position, maximum lag and optionally mapblock coordinates as a HUD elem
 
 * Mod author: orwell96
 * Contributions by naturefreshmilk
+
+### TO add: regrowing_fruits
+Versions exist from these authors to evaluate:
+	Tenplus1
+	Phillipmi
 
 ### steel
 Adds a steel derivative for crafting a few products: steel blocks that rust when near water, corrugated roofing, steel fences and grates & struts. The steel used can be recycled unless it is rusted.
@@ -945,7 +958,7 @@ Alcoholic beverages are brewed in barrels and take to produce. The barrels suppo
 *Extended ban 2*. Adds a variety of features for moderators to record the history of a player misbehaving. You can leave notes on a player's recorded manually. Record entries are also added when players are kicked, banned or temporarily banned through the mod (`/xkick`, `/xban`, `/xtempban`) and you can view their record with `/xr <player>`.
 
 This LinuxForks version of xban is maintained by gpcf and may have different features and bugfixes. I am not an expert.
-
+FIXME: https://github.com/minetest/minetest/issues/7574#issuecomment-406793673
 * Original mod author: kaeza
 * Contributions by many others
 * LinuxForks maintainer: gpcf
