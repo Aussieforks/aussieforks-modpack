@@ -6,7 +6,7 @@
 	url = https://github.com/Montandalar/advtrains.git
 [submodule "advtrains_freight_train"]
 	path = advtrains_freight_train
-	url = https://github.com/h-v-smacker/advtrains_freight_train
+	url = https://notabug.org/advtrains_supplemental/advtrains_freight_train.git
 [submodule "advtrains_platform"]
 	path = advtrains_platform
 	url = https://github.com/Montandalar/advtrains_platform
