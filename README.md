@@ -167,19 +167,13 @@ See atm/README.md for more information.
 ### australia
 Replaces the biomes with a variety Australian ones with Australian grasses, trees and modified ore deposits.
 
-Fork from Josselin2/axcore that updates it for Minetest 5.5.1 (previously was targeted at 0.4.x).
-
-TODOs:
-* Colour grade bluestone.
-* Biome code de-duplication.
-* Move ABMs to LBMs or nodetimers wherever it makes sense (loot chests etc).
-* Fix submarine rarity, possibly add to more biomes.
-* Move schematics to .mts/serialized table format, generated at dev time not
-load time.
-* Biome enablement flags like ethereal
+This is AussieForks' Fork, based on a fork from Josselin2/axcore that updated
+the mod for Minetest 5.5.1 (previously was targeted at 0.4.x). It now targets
+5.6.1
 
 * Mod author: vlapsley/demonboy
 * Fixes by: Josselin2/axcore
+* Maintainers: Blockhead & Maverick2797 (Aussieforks)
 * [Forum thread](https://forum.minetest.net/viewtopic.php?f=9&t=14412) 
 
 ### auth_export
@@ -190,6 +184,9 @@ A component in two parts: A CGI script and a minetest mod. Together they facilit
 
 ### bakedclay
 A rudimentary mod that allows player to bake clay into hardened blocks and stain those blocks with dyes. All of the baked clay blocks can be made into stairs and slabs as well. 
+
+TODO: Update for terracotta
+TODO: Investigate flower decoration spawns/dye availability for Australia gen
 
 * See bakedclay/README.md for more information
 
