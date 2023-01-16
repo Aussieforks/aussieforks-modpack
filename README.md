@@ -115,8 +115,11 @@ A set of rollingstock for advtrains. Adds a reclaimable blue diesel engine with 
 ### advtrains\_platform
 Adds a lot more options for materials to make platforms for the advtrains mod on top of the default sandstone and stone brick. Also adds 'level crossing' nodes (available in a few materilas) which are long flat nodes that cover tracks to give the look that the tracks are embedded in a road surface.
 
-* Mod author: Och_Nö
-* 45 degree platforms designed by Och_Nö and model made by Blockhead.
+This pack uses the fork by W3RQ01 which adds support for additional mods.
+
+* Mod author: Och\_Nö
+* Fork maintainer: W3RQ01
+* 45 degree platforms designed by Och\_Nö and model made by Blockhead.
 
 ### animalworld
 Chopped up Fork of Wilhelmine's Animal World mod that adds just a kangaroo. The mod also includes a crocodile but I am using the one from mobs\_animal by Tenplus1 for that.
@@ -187,8 +190,6 @@ A component in two parts: A CGI script and a minetest mod. Together they facilit
 
 ### bakedclay
 A rudimentary mod that allows player to bake clay into hardened blocks and stain those blocks with dyes. All of the baked clay blocks can be made into stairs and slabs as well. 
-
-TODO: Update for terracotta
 
 * See bakedclay/README.md for more information
 
@@ -832,6 +833,8 @@ The machines can not only automate tasks for you but improve the yields on certa
 Technic also adds some extra utility and fun nodes that are `extranodes`. You can craft trampolines and fall dampeners, concrete and more.
 
 This fork of technic is quite diverged from the mainstream and may be different from what you are used to if you have used mainstream technic. It includes a lot of additional features that have accumulated over the years. It is currently not particularly well-documented in all of its nooks and crannies. The best way to learn is to ask on the LinuxForks server. This fork of technic does not depend on `basic_materials`; it can add the recipes for unprocessed parafin and plastic itself in `extranodes` if they are not added by pipeworks.
+
+TODO: rebase li-fo machines onto mt-mods, switch
 
 * Original mod author: RealBadAngel
 * Contributions by many others
