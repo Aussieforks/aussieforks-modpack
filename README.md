@@ -598,6 +598,7 @@ All mods in the ordinary mesecons modpack are included as well as `mesecons_rate
 A mod to fix small errors and omissions of other mods. Adds a variety of doors, glass panes, mossy blocks, cobblestones of sandstone and more.
 
 FIXME: doesn't find default_key.png when buildng protectd door textures.
+ADD: clearobjects safeguard
 
 * Mod author: Smacker
 * See minetest_errata/README.md for more information.
@@ -897,6 +898,8 @@ Adds a steel derivative for crafting a few products: steel blocks that rust when
 Adds a crane that can be deployed in any area that you own or any free area. It adds a temporary protection on the area it is deployed on that gets removed with the crane. To use the crane, you first configure how far up and across the crane extends its arm. The crane is then activated from the node on its base, giving you flying privilege limited to within the crane's area of effect.
 
 This version includes a patch from gpcf that fixes a crash when the area can't be protected. TODO: This version of towercrane is actually incredibly old, and the above patched bug may already be fixed upstream. 
+
+FIXME: mod seems to cause issues with fly privilege
 
 * Mod author: joe7575
 * Patch by: gpcf
