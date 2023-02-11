@@ -307,3 +307,7 @@
 [submodule "glider"]
 	path = glider
 	url = https://github.com/CBugDCoder/glider
+[submodule "atm/"]
+	url = https://github.com/mt-mods/atm
+[submodule "advtrains_freight_train/"]
+	url = https://notabug.org/advtrains_supplemental/advtrains_freight_train
