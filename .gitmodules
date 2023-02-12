@@ -6,7 +6,7 @@
 	url = https://github.com/Montandalar/advtrains.git
 [submodule "advtrains_freight_train"]
 	path = advtrains_freight_train
-	url = https://notabug.org/advtrains_supplemental/advtrains_freight_train.git
+	url = https://notabug.org/advtrains_supplemental/advtrains_freight_train
 [submodule "advtrains_platform"]
 	path = advtrains_platform
 	url = https://github.com/Montandalar/advtrains_platform
@@ -21,7 +21,7 @@
 	url = https://github.com/ShadowNinja/areas
 [submodule "atm"]
 	path = atm
-	url = https://git.bananach.space/atm.git
+	url = https://github.com/mt-mods/atm
 [submodule "australia"]
 	path = australia
 	url = https://github.com/Aussieforks/australia
@@ -126,7 +126,7 @@
 	url = https://bitbucket.org/sorcerykid/formspecs.git
 [submodule "freezer"]
 	path = freezer
-	url = http://git.linux-forks.de/freezer/
+	url = https://github.com/h-v-smacker/freezer
 [submodule "gates"]
 	path = gates
 	url = https://bitbucket.org/kingarthursteam/gates.git
@@ -307,7 +307,3 @@
 [submodule "glider"]
 	path = glider
 	url = https://github.com/CBugDCoder/glider
-[submodule "atm/"]
-	url = https://github.com/mt-mods/atm
-[submodule "advtrains_freight_train/"]
-	url = https://notabug.org/advtrains_supplemental/advtrains_freight_train
