@@ -925,11 +925,15 @@ TODO: Blockhead has written a version with crafting recipes for the platform sig
 * See trainblocks/README.md for more information.
 
 ### trash_can
-Adds a wooden trash can and dumpster that you can empty with the click of a button. Items thrown on the ground near the trash can will automatically go into it.
+Adds a wooden trash can and dumpster that you can empty with the click of a button. Items thrown on the ground near the trash can will automatically go into it (if the mod is configured to do so).
 
-There is another mod with this name on the minetest forums, but this is Evergreen's version.
+There is another mod with this name on the Minetest forums, but this is Evergreen's version, which now lives with minetest-mods.
+
+TODO: Wheelie bin
 
 * Mod author: Evergreen
+* Contributions by: David Leal, minertestdude, tuedel, Emojigit, Maksym H,
+jolesh and Blockhead (Montandalar).
 * [Forum thread](https://forum.minetest.net/viewtopic.php?f=11&t=6315)
 * [ContentDB](https://content.minetest.net/packages/Evergreen/trash_can/)
 * See trash_can/README.txt for more information
