@@ -303,7 +303,7 @@
 	url = https://github.com/Montandalar/towercrane
 [submodule "trainblocks"]
 	path = trainblocks
-	url = https://notabug.org/advtrains_supplemental/trainblocks
+	url = https://github.com/Montandalar/trainblocks
 [submodule "trash_can"]
 	path = trash_can
 	url = https://github.com/Montandalar/trash_can.git
