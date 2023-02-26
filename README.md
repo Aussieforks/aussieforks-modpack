@@ -112,6 +112,14 @@ A set of rollingstock for advtrains. Adds a reclaimable blue diesel engine with 
 * Mod author: mbb
 * LinuxForks maintainer: Smacker
 
+### advtrains\_livery\_tools
+User-friendly tools for applying liveries (paint schemes etc.) to AdvTrains
+wagons that support it. Used as a library mod for classic coaches.
+
+* Mod author: Marnack
+* [ContentDB](https://content.minetest.net/packages/Marnack/classic_coaches/)
+* See advtrains\_livery\_tools/README.md for more information.
+
 ### advtrains\_platform
 Adds a lot more options for materials to make platforms for the advtrains mod on top of the default sandstone and stone brick. Also adds 'level crossing' nodes (available in a few materilas) which are long flat nodes that cover tracks to give the look that the tracks are embedded in a road surface.
 
@@ -219,7 +227,6 @@ A mod that adds chat channels. Users can create the channels with a password and
 * See beerchat/README.md for more information.
 * Original mod author: evrooije
 * Additions by many authors (see git log)
-* Chat logging by gpcf
 
 ### bike
 Adds a craftable, rideable, paintable bicycle. The bicycle painter is also used to colour the JRE-E231 train (also included in this modpack).
@@ -264,6 +271,14 @@ Allows you to preserve food in glass vessels. Some of the foods require sugar to
 * Mod author: Smacker
 * See canned_food/README.md for more information
 
+### classic\_coaches\*
+A set of passenger cars for AdvTrains with Livery Tools support. Available in
+first/second class and corridor/open varieties.
+
+* Mod author: Marnack
+* See classic\_coaches\*/README.md for more information
+* [ContentDB](https://content.minetest.net/packages/Marnack/classic_coaches/)
+
 ### config
 'Configuration panel'. A configuration file in-game editor and code library by SorceryKid. Required for the debugging console mod.
 
@@ -272,25 +287,12 @@ Allows you to preserve food in glass vessels. Some of the foods require sugar to
 * [ContentDB](https://content.minetest.net/packages/sorcerykid/config/)
 * See config/README.txt for more information
 
-### console
-Debugging console mod by sorcerykid. Apart from viewing the debug log inside a formspec, it also allows all calls to a function to be intercepted and printed to do the debug log, known as 'piping'.
-
-* Mod author: sorcerykid
-* [Forum thread](https://forum.minetest.net/viewtopic.php?t=25433)
-* [ContentDB](https://content.minetest.net/packages/sorcerykid/console/)
-* See console/README.txt for more information
-
 ### cottages
 A set of nodes for building medieval-era kind of houses, inside and out.
 
 * See cottages/README.md for more information.
 * Original mod author: Sokomine
 * LinuxForks maintainer and author of many additions: Smacker
-
-### craftguide
-Adds a crafting guide sign and crafting guide book to the game. Interacting with either will open a crafting guide interface. Mostly redundant with Unified Inventory (included in this modpack) but it has been kept on the LinuxForks server so it available in this modpack.
-
-* Mod author: Jean-Patrick Guerrero
 
 ### currency
 Adds fiat currency banknotes, Universal basic income, two way to trade and a
@@ -820,8 +822,14 @@ A node that can sell up to 4 different items and receive payment by items as wel
 * Mod author: AiTechEye
 * LinuxForks maintainer: gpcf
 
-###some_more_trains
-FIXME: Install
+### some\_more\_trains
+A modpack by APercy intend to add various trains. Currently contains only the
+somemoretrains\_tram mod, which adds an older style tram with sounds reused from
+AdvTrains Subway and a new bell sound.
+
+* Mod author: APercy
+* Contributions by: W3RQ01 
+* [Forum thread](https://forum.minetest.net/viewtopic.php?t=26934)
 
 ### technic
 A rather huge and all-encompassing technology and automation mod. It affects worldgen: it adds a number of metals to the world, as well as marble and granite and a new species of tree: the rubber tree. Using these natural resources of various metals and organic products like rubber and plastic you can make a large number of machines. The machines require power and can perform different tasks; they can all be connected with `pipeworks`. The machines can be powered by three voltages: Low, Medium and High Voltage (LV, MV and HV). Power generation is easiest with the LV hydro generators.
@@ -839,6 +847,15 @@ TODO: rebase li-fo machines onto mt-mods, switch
 * LinuxForks Maintainer: Smacker
 * [Forum thread](https://forum.minetest.net/viewtopic.php?t=2538)
 * For more information, see technic/README.md
+
+### technictrain
+Provides technic machines mounted in box cars. The sole box car currently
+available is the charger wagon, which holds electrical charge like a boxcar
+and also has an integrated fuel-fired generator. The model is that of the
+moretrains box car, with a custom texture and appearance to show battery charge.
+
+* Mod author: gpcf
+* [ContentDB](https://content.minetest.net/packages/gpcf/technictrain/)
 
 ### telemosaic
 ADDME
@@ -858,11 +875,12 @@ You will need to write a script on a luacontroller to perform more advanced disp
 * Mod author: gbl08ma
 * See textline/README.md for more information  
 
-### tfl_s7_stock
+### tfl\_s7\_stock
 Adds a set of two advtrain carriages based on the Transport for London (TfL) S7 stock used on the London Underground. There is no sound available for this one sorry :(. Also note that escaping the driver's seat may be difficult because of the size of entity boxes in advtrains: you need to right-click on the centre of the carriage to open the menu in advtrains.  
 
 * Mod author: Mainote
-* See tfl_s7_stock/README.md for more information
+* Contributions by: W3RQ01
+* See tfl_\s7\_stock/README.md for more information
 
 ### timekeeper
 A library for easy recurring timers, handled centrally. So far used just by `console`.
