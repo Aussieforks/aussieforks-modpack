@@ -956,14 +956,19 @@ jolesh and Blockhead (Montandalar).
 * [ContentDB](https://content.minetest.net/packages/Evergreen/trash_can/)
 * See trash_can/README.txt for more information
 
-### unified_inventory
+### unified\_inventory
 Overhauls the default inventory screen from minetest and adds integrations of UI icons for features from other mods. Includes searching and a crafting guide, as well as additional features for users with privileges to set the time of day and creative users to give themselves items. Includes a crafting guide. Much more user-friendly than the default survival and creative inventories.
-
-This older version of unified inventory has bags made from cotton rather than string.
 
 * Mod author: RealBadAngel
 * With contributions from many others
 * See unified_inventory/README.md for more information
+
+### unified\_inventory\_bags\_cotton
+Replaces the string with cotton (from farming redo) in recipes for the Unified
+Inventory bags. This used to be the behaviour in much older versions of
+Unified Inventory.
+
+* Mod author: Blockhead
 
 ### walkway
 Adds what are effectively moving travelators to the game, available as slopes and flat blocks, allowing you to move faster in theory. They don't play very nice with lag.
