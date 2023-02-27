@@ -310,6 +310,9 @@
 [submodule "unified_inventory"]
 	path = unified_inventory
 	url = https://github.com/minetest-mods/unified_inventory
+[submodule "unified_inventory_bags_cotton"]
+	path = unified_inventory_bags_cotton
+	url = https://github.com/Montandalar/unified_inventory_bags_cotton
 [submodule "walkway"]
 	path = walkway
 	url = https://git.bananach.space/walkway.git/
@@ -319,6 +322,3 @@
 [submodule "xban2"]
 	path = xban2
 	url = http://git.bananach.space/xban2.git/
-[submodule "unified_inventory_bags_cotton"]
-	path = unified_inventory_bags_cotton
-	url = git@github.com:Montandalar/unified_inventory_bags_cotton.git
