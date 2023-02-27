@@ -246,7 +246,7 @@
 	url = https://github.com/Montandalar/places.git
 [submodule "postool"]
 	path = postool
-	url = https://github.com/SwissalpS/postool
+	url = https://github.com/Montandalar/postool.git
 [submodule "pvp_areas"]
 	path = pvp_areas
 	url = https://github.com/taikedz/everamzah-pvp_areas

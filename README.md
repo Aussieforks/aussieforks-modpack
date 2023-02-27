@@ -890,11 +890,15 @@ A library for easy recurring timers, handled centrally. So far used just by `con
 * [ContentDB](https://content.minetest.net/packages/sorcerykid/timekeeper/)
 * See timekeeper/README.txt for more information.
 
-### poshud
-Adds the position, maximum lag and optionally mapblock coordinates as a HUD element. TODO: later versions include advtrains railwaytime.
+### postool
+Adds the position and several other bits of information as a configurable HUD,
+plus a tool for showing grids like protector mod.
 
-* Mod author: orwell96
-* Contributions by naturefreshmilk
+This fork includes the ability to display biome data in the HUD - biome, heat
+and humidity.
+
+* Mod author: SwissalpS
+* Biome data co-authored by: SwissalpS and Blockhead
 
 ### TO add: regrowing_fruits
 Versions exist from these authors to evaluate:
