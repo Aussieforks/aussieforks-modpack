@@ -172,6 +172,12 @@ See atm/README.md for more information.
 * Mod author: gpcf
 * Additions by: Smacker
 
+### aussiesigns
+Adds various signs that could be found in Australia. So far just warning
+signs for dangerous wildlife.
+
+* Mod author: Blockhead
+
 ### australia
 Replaces the biomes with a variety Australian ones with Australian grasses, trees and modified ore deposits.
 

@@ -25,6 +25,9 @@
 [submodule "atm"]
 	path = atm
 	url = https://github.com/mt-mods/atm
+[submodule "aussiesigns"]
+	path = aussiesigns
+	url = https://github.com/Montandalar/aussiesigns.git
 [submodule "australia"]
 	path = australia
 	url = https://github.com/Aussieforks/australia
