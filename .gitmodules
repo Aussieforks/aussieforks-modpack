@@ -255,7 +255,7 @@
 	url = https://github.com/taikedz/everamzah-pvp_areas
 [submodule "railroad_paraphernalia"]
 	path = railroad_paraphernalia
-	url = https://github.com/h-v-smacker/railroad_paraphernalia
+	url = https://notabug.org/advtrains_supplemental/railroad_paraphernalia.git
 [submodule "realestate"]
 	path = realestate
 	url = https://github.com/Montandalar/realestate.git

@@ -776,13 +776,16 @@ Allows admins with `pvp_areas_admin` privilege to mark areas as Player vs Player
 * Additions by taikedz and AntumDelgue
 * See pvp_areas/README.md for more information
 
-### railroad_paraphernalia
+### railroad\_paraphernalia
 A collection of railway-related equipment include point levers, the track blocker (like a derail), shunting signal and shunt limit post.
 
-TODO: The shunting signal is newer than the `advtrains` TSS update, so it is currently not useful for actual shunting moves with that system. 
+This forked version updates the shunting signal to make it usable for shunting
+movements with the newer `advtrains` TSS update. Previous it was not useful for
+actual shunting moves with that system.
 
 * Mod author: Smacker
-* See railroad_paraphernalia/README.md for more information.
+* Contributions by: Blockhead
+* See railroad\_paraphernalia/README.md for more information.
 
 ### realestate
 Allows players to offer their protecteed `areas` for sale to other players with a For Sale sign. The sign asks for an area number - which must be one the sign owner owns, and a price, which is in MineGeld, the currency from the `currency` mod. Once that is configured, any player can walk up to the for sale sign and use it to buy that area. When they complete the purchase, it will automatically send the purchase price to the seller by wire transfer, and the sale sign will be deleted.
