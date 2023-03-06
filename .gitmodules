@@ -94,6 +94,9 @@
 [submodule "dlxtrains_modpack"]
 	path = dlxtrains_modpack
 	url = https://github.com/Marnack/DlxTrains_modpack
+[submodule "doxy_advtrains_attachment_offset_patch"]
+	path = doxy_advtrains_attachment_offset_patch
+	url = https://invent.kde.org/davidhurka/doxy_advtrains_attachment_offset_patch.git
 [submodule "drawers"]
 	path = drawers
 	url = http://git.linux-forks.de/drawers/

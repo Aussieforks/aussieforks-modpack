@@ -361,6 +361,17 @@ The *DlxTrains* modpack Marnack adds a variety of American and European rolling 
 * Mod author: Marnack
 * [ContentDB](https://content.minetest.net/packages/Marnack/dlxtrains/)
 
+### doxy\_advtrains\_attachment\_offset\_patch
+Improves the camera controls inside AdvTrains so it acts more like sitting in a
+specific seat instead of rotating around the centre of the train, and make it so
+you can rotate your head freely all the time. Includes support for pretty much
+all known wagons plus an API to register the data the patch mod needs inside
+from your own mod.
+
+* Mod author: David Hurkha / doxydoxy
+* [ContentDB](https://content.minetest.net/packages/doxygen_spammer/advtrains_attachment_offset_patch/)
+* [Forums](https://forum.minetest.net/viewtopic.php?t=28254)
+
 ### drawers
 Adds high-capacity containers that hold only 1, 2 or 4 kinds of item. They can be inserted into with the pneumatic tubes from `pipeworks` (included in this modpack) or with the drawer controller. The drawer controller can be quite slow. When you put something into the controller, it will look for an attached drawer in a network and place the item into the appropriate drawer. There is no automatic way to with-drawer (pun intended) from the drawers.
 
