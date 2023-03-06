@@ -934,15 +934,16 @@ Adds a steel derivative for crafting a few products: steel blocks that rust when
 * [Forum thread](https://forum.minetest.net/viewtopic.php?t=2014)
 
 ### towercrane
-Adds a crane that can be deployed in any area that you own or any free area. It adds a temporary protection on the area it is deployed on that gets removed with the crane. To use the crane, you first configure how far up and across the crane extends its arm. The crane is then activated from the node on its base, giving you flying privilege limited to within the crane's area of effect.
-
-This version includes a patch from gpcf that fixes a crash when the area can't be protected. TODO: This version of towercrane is actually incredibly old, and the above patched bug may already be fixed upstream. 
-
-FIXME: mod seems to cause issues with fly privilege
+Adds a crane that can be deployed in any area that you own or any free area.
+To use the crane, you first configure how far up and across the crane
+extends its arm. The crane is then activated from the node on its base, giving
+you flying privilege limited to within the crane's area of effect. The crane
+will stay up for a maximum of 5 real world days, after which it will collapse
+when players load that area of the world again.
 
 * Mod author: joe7575
-* Patch by: gpcf
-* See towercrane/README.md
+* Contributions by: tuedel, groxxda, Emojigit, jolesh and Blockhead
+* See towercrane/README.md for more information.
 
 ### TNT
 Safe TNT fork by gpcf. The TNT has a configurable minimum depth to keep the surface world safe for multiplayer. On LinuxForks, TNT is only allowed to be ignited under y = -200.
