@@ -303,7 +303,7 @@
 	url = https://github.com/Montandalar/tnt
 [submodule "towercrane"]
 	path = towercrane
-	url = https://github.com/Montandalar/towercrane
+	url = https://github.com/minetest-mods/towercrane
 [submodule "trainblocks"]
 	path = trainblocks
 	url = https://github.com/Montandalar/trainblocks
