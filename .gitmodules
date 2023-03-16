@@ -12,7 +12,7 @@
 	url = https://github.com/Marnack/advtrains_livery_tools
 [submodule "advtrains_platform"]
 	path = advtrains_platform
-	url = https://github.com/Montandalar/advtrains_platform
+	url = https://github.com/W3RQ01/advtrains_platform
 [submodule "animalworld_kangaroo"]
 	path = animalworld_kangaroo
 	url = https://github.com/Montandalar/animalworld_kangaroo
