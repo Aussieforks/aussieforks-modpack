@@ -828,13 +828,14 @@ A: It won't crash the server, because each macro is evaluated only once.
 * Maintainer: VanessaE
 
 ### skinsdb
-Allows players to set a skin from a selection provided by the server. The skin selection menu is available from an icon inside `unified_inventory`.
+Allows players to set a skin from a selection provided by the server. The skin
+selection menu is available from an icon inside `unified_inventory`. The mod
+requires players/server operators to download the skins separately.
 
-FIXME: Input sanitisation, update the mod!
-
-* warning/TODO: this mod includes some commands, which, if given no or incorrect arguments can crash the server! 
+* Original author: dmonty2, in 2014
+* Additions and maintained by: Krock/SmallJoker since 2014
+* Contributions by many others
 * See skinsdb/README.md for more information
-* 
 
 ### smartshop
 A node that can sell up to 4 different items and receive payment by items as well. The typical method of payment is the minegeld notes from `currency`, but of course you can use it to buy, sell or trade. For buying and selling multiple items at once, use the exchange shop from `currency`. You can insert items into it with pneumatic tubes from behind; it will only accept items it sells from the pipe. You can take items out of it - for example, the money spent or the items bought - with a filter injector below that faces downwards. To take items out however, you may need to set a filter on the filter-injector.
