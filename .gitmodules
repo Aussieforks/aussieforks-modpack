@@ -273,7 +273,7 @@
 	url = https://github.com/minetest-mods/skinsdb
 [submodule "smartshop"]
 	path = smartshop
-	url = https://git.bananach.space/smartshop.git/
+	url = https://github.com/fluxionary/minetest-smartshop
 [submodule "some_more_trains"]
 	path = some_more_trains
 	url = https://github.com/APercy/some_more_trains
@@ -286,9 +286,6 @@
 [submodule "technictrain"]
 	path = technictrain
 	url = https://git.bananach.space/technictrain.git
-[submodule "teleport_potion"]
-	path = teleport_potion
-	url = https://notabug.org/TenPlus1/teleport_potion
 [submodule "textline"]
 	path = textline
 	url = https://github.com/gbl08ma/textline
@@ -325,3 +322,6 @@
 [submodule "xban2"]
 	path = xban2
 	url = http://git.bananach.space/xban2.git/
+[submodule "telemosaic"]
+	path = telemosaic
+	url = https://github.com/mt-mods/telemosaic
