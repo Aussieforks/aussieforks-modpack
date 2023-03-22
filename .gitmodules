@@ -325,3 +325,9 @@
 [submodule "telemosaic"]
 	path = telemosaic
 	url = https://github.com/mt-mods/telemosaic
+[submodule "futil"]
+	path = futil
+	url = https://github.com/fluxionary/minetest-futil
+[submodule "fmod"]
+	path = fmod
+	url = https://github.com/fluxionary/minetest-fmod
