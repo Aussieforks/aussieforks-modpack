@@ -18,7 +18,7 @@
 	url = https://github.com/Montandalar/animalworld_kangaroo
 [submodule "apartment"]
 	path = apartment
-	url = https://git.bananach.space/apartment.git
+	url = https://github.com/Montandalar/minetest-apartment.git
 [submodule "areas"]
 	path = areas
 	url = https://github.com/ShadowNinja/areas
