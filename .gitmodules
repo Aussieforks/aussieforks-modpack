@@ -99,7 +99,7 @@
 	url = https://invent.kde.org/davidhurka/doxy_advtrains_attachment_offset_patch.git
 [submodule "drawers"]
 	path = drawers
-	url = http://git.linux-forks.de/drawers/
+	url = https://github.com/minetest-mods/drawers.git
 [submodule "dumpnodes"]
 	path = dumpnodes
 	url = https://github.com/Montandalar/dumpnodes.git
