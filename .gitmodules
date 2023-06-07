@@ -133,12 +133,18 @@
 [submodule "fireworkz"]
 	path = fireworkz
 	url = https://git.bananach.space/fireworkz.git
+[submodule "fmod"]
+	path = fmod
+	url = https://github.com/fluxionary/minetest-fmod
 [submodule "formspecs"]
 	path = formspecs
 	url = https://bitbucket.org/sorcerykid/formspecs.git
 [submodule "freezer"]
 	path = freezer
 	url = https://github.com/h-v-smacker/freezer
+[submodule "futil"]
+	path = futil
+	url = https://github.com/fluxionary/minetest-futil
 [submodule "gates"]
 	path = gates
 	url = https://bitbucket.org/kingarthursteam/gates.git
@@ -172,6 +178,9 @@
 [submodule "ldm32"]
 	path = ldm32
 	url = https://github.com/laza83/ldm32
+[submodule "library_bookshelf"]
+	path = library_bookshelf
+	url = https://github.com/Montandalar/library_bookshelf
 [submodule "linetrack"]
 	path = linetrack
 	url = https://gitlab.com/Hume2/linetrack.git
@@ -286,6 +295,9 @@
 [submodule "technictrain"]
 	path = technictrain
 	url = https://git.bananach.space/technictrain.git
+[submodule "telemosaic"]
+	path = telemosaic
+	url = https://github.com/mt-mods/telemosaic
 [submodule "textline"]
 	path = textline
 	url = https://github.com/gbl08ma/textline
@@ -322,12 +334,3 @@
 [submodule "xban2"]
 	path = xban2
 	url = http://git.bananach.space/xban2.git/
-[submodule "telemosaic"]
-	path = telemosaic
-	url = https://github.com/mt-mods/telemosaic
-[submodule "futil"]
-	path = futil
-	url = https://github.com/fluxionary/minetest-futil
-[submodule "fmod"]
-	path = fmod
-	url = https://github.com/fluxionary/minetest-fmod

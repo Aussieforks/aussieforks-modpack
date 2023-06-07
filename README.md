@@ -550,6 +550,15 @@ Warns of lag events: currently just when when mapblocks are being generated.
 * See ldm32/README.md for more information
 * [Forum thread](https://forum.minetest.net/viewtopic.php?t=21653)
 
+### library\_bookshelf
+
+Adds a bookshelf that can be used to make infinite copies of a written book.
+Useful for distributing copies of rules and player guides, among other things.
+Inspired by a node from Your Land server that I couldn't find published.
+
+* Mod author: Blockhead
+* See library\_bookshelf/README.md for more information
+
 ### linetrack
 *Means of transport tracking lines*. A set of tracks and objects depending on `advtrains`. Currently it allows watertracks to be placed on water and provides ferries to travel on them. It also provides the normal ATC, LuaATC and Station/stop tracks like `advtrains` as well as buoy-like objects for TCBs and signals.
 
