@@ -693,15 +693,15 @@ This linuxforks edition prefers using the brass ingots from `technic` rather tha
 * See morelights/README.md for more information.
 
 ### moreores
-Adds two new metals to the game: mithril and silver. Previously it added even more ores but most of those have been added to minetest_game over time.
+Adds two new metals to the game: mithril and silver. Previously it added even more ores but most of those have been added to minetest\_game over time.
 
 Mithril is the strongest metal and the tools made from it are more durable than even mese tools. They are probably equivalent in durability to the crystal tools. Mithril is only found from y = 512 and below. It is also used in technic for the energy crystals, the sonic screwdriver (rechargeable screwdriver), drawer upgrades, the mithril chest (not useful in any way). Finally, it has used for an additional tool, the mithril scythe, which harvests and replants at the same time, increasing yields.
 
 Silver is important in several `technic` applications due to its electrical conductivity.
 
 * Original mod author: Calinou
-* Contributions by Novatux, VanessaE, HybridDog, Richard Qian, Hugo Lucurcio, Thomas-S, AntumDeluge.
-* Translations by pagliaccio (it), Xanthin (de), oscar (nl) and the UFRGS (pt_br).
+* Contributions by Novatux, VanessaE, HybridDog, Richard Qian, Hugo Lucurcio, Thomas-S, AntumDeluge, and others
+* Translations by pagliaccio (it), Xanthin (de), oscar (nl) and the UFRGS & David Leal (pt_br).
 * See moreores/README.md for more information.
 * [Forum thread](https://forum.minetest.net/viewtopic.php?t=549)
 
