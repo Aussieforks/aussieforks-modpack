@@ -611,7 +611,7 @@ Adds a maple tree that can spawn in deciduous forest biomes during mapgen. It is
 * [Forum thread](https://forum.minetest.net/viewtopic.php?t=20449)
 * See maple/README.md for more information.
 
-### mesecons & mesecons_ratelimiter
+### mesecons & mesecons\_ratelimiter
 Mesecons! They're yellow, they're conductive and they'll add a whole new dimension to Minetest's gameplay. A whole bunch of digital circuitry stuff.
 
 All mods in the ordinary mesecons modpack are included as well as `mesecons_ratelimiter` which limits the frequency that mesecons devices can operate at.

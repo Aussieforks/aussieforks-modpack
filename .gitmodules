@@ -334,3 +334,6 @@
 [submodule "xban2"]
 	path = xban2
 	url = http://git.bananach.space/xban2.git/
+[submodule "aussieforks_custom"]
+	path = aussieforks_custom
+	url = https://github.com/Aussieforks/aussieforks_custom
