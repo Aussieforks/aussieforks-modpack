@@ -207,11 +207,20 @@ TODO: Investigate flower decoration spawns/dye availability for Australia gen
 * Mod author: TenPlus1
 
 ### banish
-A mod for server admins/moderators to banish misbehaving players to a specific area of the game. Banished players are not allowed to teleport away, and they should be kept in an area that is physically inescapable and protected with the areas mod. A server will typically have a jail/prison for this purpose.
 
-Currently, some configuration will have to be done inside the lua source files to set the jail position. This mod also integrates with xban2 (also included in this modpack) to record when users are banished.
+A mod for server admins/moderators to banish misbehaving players to a specific
+area of the game. Banished players are not allowed to teleport away with
+commands from the `places` mod and they should be kept in an area that is
+physically inescapable and protected with the areas mod. A server will typically
+have a jail/prison for this purpose.
+
+Before it was forked, this mod needed an edit to the lua source files to set the
+jail position. Patches have been submitted upstream to fix this. This mod also
+integrates with xban2 (also included in this modpack) to record when users are
+jailed, which becomes visible on the player's xban records.
 
 * Mod author: gpcf
+* AussieForks Maintainer: Blockhead
 
 ### basic_trains
 A collection of the oldest trains for advtrains. These trains used to be included with advtrains but have since been split out.

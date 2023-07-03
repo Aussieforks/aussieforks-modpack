@@ -39,7 +39,7 @@
 	url = https://notabug.org/TenPlus1/bakedclay
 [submodule "banish"]
 	path = banish
-	url = https://git.bananach.space/banish.git
+	url = https://github.com/Aussieforks/banish.git
 [submodule "basic_trains"]
 	path = basic_trains
 	url = https://github.com/Montandalar/basic_trains.git
