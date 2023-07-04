@@ -797,6 +797,8 @@ A homebrew mod of LinuxForks which holds the teleport commands for various locat
 This mod also integrates with the justice systems on LinuxForks in the mods `banish` and `xban2`. Players cannot use these commands if they are jailed by `banish`; instead they are teleport to the `execution_pos` defined in the code.
 
 * Mod author: gpcf
+* LinuxForks maintainer: Blockhead
+* Contains TODOs in places/init.lua
 
 ### pvp_areas (optional)
 Allows admins with `pvp_areas_admin` privilege to mark areas as Player vs Player areas (PVP areas) or non-PVP areas, depending on the configuration. Was previously used to allow PvP just for the PvP arena at Origin on the LinuxForks server. It has now been retired.
@@ -897,7 +899,14 @@ moretrains box car, with a custom texture and appearance to show battery charge.
 * [ContentDB](https://content.minetest.net/packages/gpcf/technictrain/)
 
 ### telemosaic
-ADDME
+Provides a teleporter that requires mosaic nodes around it to extend its range.
+Teleporters can be protected and kept private or they can be public. This is the
+well-maintained and improved fork from mt-mods.
+
+* Mod author: bendeutsch
+* Based on tacotexmex's fork, who added sound and particles
+* Maintained by mt-mods including naturefreshmilk, Thomas Rudin, OgelGames,
+coil0, BuckarooBanzai, Omikhleia, and Niklp09.
 
 ### teleport_potion
 Adds an item and a node for teleportation. The teleport potion, can be used for one-time teleportation at the cost of 4 diamonds. The teleport pad can be crafted out of 4 teleport potions. You can enter any coordinates into the teleport pad to enchant its location, then step onto the pad to teleport to the target.
