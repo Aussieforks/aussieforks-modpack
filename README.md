@@ -172,6 +172,12 @@ See atm/README.md for more information.
 * Mod author: gpcf
 * Additions by: Smacker
 
+### aussieforks_custom
+A mod for code not considered reusable outside of Aussieforks. Presently
+contains just a system for de-privileging service accounts.
+
+* Mod Author: Maverick2797
+
 ### aussiesigns
 Adds various signs that could be found in Australia. So far just warning
 signs for dangerous wildlife.
