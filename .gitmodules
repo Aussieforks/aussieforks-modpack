@@ -213,10 +213,10 @@
 	url = https://github.com/Montandalar/minetest_errata
 [submodule "minetest_hbhunger"]
 	path = minetest_hbhunger
-	url = http://repo.or.cz/minetest_hbhunger.git
+	url = https://codeberg.org/Wuzzy/minetest_hbhunger
 [submodule "minetest_hudbars"]
 	path = minetest_hudbars
-	url = http://repo.or.cz/minetest_hudbars.git
+	url = https://codeberg.org/Wuzzy/minetest_hudbars
 [submodule "minetest_worldedit"]
 	path = minetest_worldedit
 	url = https://github.com/Uberi/Minetest-WorldEdit
