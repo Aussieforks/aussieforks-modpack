@@ -25,6 +25,9 @@
 [submodule "atm"]
 	path = atm
 	url = https://github.com/mt-mods/atm
+[submodule "aussieforks_custom"]
+	path = aussieforks_custom
+	url = https://github.com/Aussieforks/aussieforks_custom
 [submodule "aussiesigns"]
 	path = aussiesigns
 	url = https://github.com/Montandalar/aussiesigns.git
@@ -123,7 +126,7 @@
 	url = https://github.com/pandorabox-io/factory_bridges
 [submodule "farebox"]
 	path = farebox
-	url = http://git.linux-forks.de/farebox/
+	url = https://github.com/Aussieforks/farebox.git
 [submodule "farming"]
 	path = farming
 	url = https://gitlab.com/Felfa/farming
@@ -334,6 +337,3 @@
 [submodule "xban2"]
 	path = xban2
 	url = http://git.bananach.space/xban2.git/
-[submodule "aussieforks_custom"]
-	path = aussieforks_custom
-	url = https://github.com/Aussieforks/aussieforks_custom
