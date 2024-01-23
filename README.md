@@ -74,10 +74,9 @@ There are some other questions and answers for specific mods below.
 
 Q: You say some of these mods are not enabled in the below mod list and in the installation instructions. Why are some included then? Which mods do I enable?
 
-A: Some of the mods are part of modpacks but not all of  the mods contained therein are used. For example, `mobs_croc` from `mobs_water` is not enabled because this modpack has no hostile mobs. A template `world.mt` file will be included in this modpack that has the default mod config. Some mods, like advprofiler, should only be enabled if you are testing. Still others like `builtin_item` I thought would be good to include in this modpack because they are included in the official mod archives of LinuxForks but not enabled on the server, and I think they are nice mods.
+A: Some of the mods are part of modpacks but not all of  the mods contained therein are used. For example, `mobs_croc` from `mobs_water` is not enabled because this modpack has no hostile mobs. A template `world.mt` file will be included in this modpack that has the default mod config. Some mods, like advprofiler, should only be enabled if you are testing.
 
 Q: Why does it take so long to launch a world in this modpack?
-
 A: There are a lot of mods. This is not a lightweight modpack.
 
 Q: Why is this README so long?
@@ -85,11 +84,6 @@ Q: Why is this README so long?
 A: Mostly because of the descriptions of each mod included. The rationale for this is: Firstly that I have tried to give a nice overview of all the mods so you can understand what each one does. Secondly, some of the mods included don't have READMEs and really needed a bit of an explanation.
 
 ## Mods and modpacks included
-
-### advboats
-A mod that adds 'advanced boats'. The boats can be piloted like ordinary boats but their route can be recorded. After it is recorded, it will continuously play back. It was more of an early experiment by gpcf and is now superseded by the ferries from linetrack.
-
-* Mod author: gpcf
 
 ### advprofiler (optional)
 An 'advanced profiler' tool. This is mainly used to measure performance and identify lag sources on the LinuxForks server. You can use it to profile different functions by calling its API. It can make reports on how each of them performed into a TSV file.
@@ -618,14 +612,6 @@ Adds simple command `/mapfix [size]` that anyone can run. It will fix lighting a
 * [Forum thread](https://forum.minetest.net/viewtopic.php?t=10662)
 * See mapfix/README.md for more information,
  
-### maple
-Adds a maple tree that can spawn in deciduous forest biomes during mapgen. It is a taller than the default apple tree, has a distinctive wood colour and is a bit more spherical in the shape of its foliage. The wood can be used in a variety of products in this modpack like `si_frames`, `drawers` and `pkarcs` and preserve it nice texture and colouration. 
-
-* Mod author: ExeterDad
-* LinuxForks maintainer: Smacker
-* [Forum thread](https://forum.minetest.net/viewtopic.php?t=20449)
-* See maple/README.md for more information.
-
 ### mesecons & mesecons\_ratelimiter
 Mesecons! They're yellow, they're conductive and they'll add a whole new dimension to Minetest's gameplay. A whole bunch of digital circuitry stuff.
 
