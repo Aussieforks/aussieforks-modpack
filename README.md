@@ -332,7 +332,10 @@ first/second class and corridor/open varieties.
 * See config/README.txt for more information
 
 ### cottages
-A set of nodes for building medieval-era kind of houses, inside and out.
+A set of nodes for building medieval-era kind of houses, inside and out. This
+set from Linuxforks includes many additional roof types, but doesn't have some
+later additions from Sokomine like the different soil types for the
+Feldwege.
 
 * See cottages/README.md for more information.
 * Original mod author: Sokomine
