@@ -81,7 +81,7 @@
 	url = https://bitbucket.org/sorcerykid/config.git
 [submodule "cottages"]
 	path = cottages
-	url = https://github.com/gpcf/cottages
+	url = https://github.com/h-v-smacker/cottages.git
 [submodule "currency"]
 	path = currency
 	url = https://github.com/Aussieforks/currency
