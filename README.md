@@ -89,6 +89,7 @@ A: Mostly because of the descriptions of each mod included. The rationale for th
 An 'advanced profiler' tool. This is mainly used to measure performance and identify lag sources on the LinuxForks server. You can use it to profile different functions by calling its API. It can make reports on how each of them performed into a TSV file.
 
 * Mod author: orwell96
+* Licence: FIXME All rights reserved
 
 ### advtrains
 A modpack that adds realistic trains to minetest. See advtrains/readme.txt and other readmes included in each mod of the pack.
@@ -97,14 +98,19 @@ A modpack that adds realistic trains to minetest. See advtrains/readme.txt and o
 * [Upstream git repository](https://git.bananach.space/advtrains.git/)
 * [Bug tracker](https://bugs.linux-forks.de/advtrains/)
 * [Wiki](https://advtrains.de/wiki/)
-* See advtrains
-* Authored by orwell96 with contributions by others, see
+* See advtrains/README.md for more info
+* Authored by orwell96 with contributions by others, see advtrains/README.md
+for authorsip
+* Licence: AGPL-3.0-or-later
+* Media-Licence: CC-BY-SA-3.0
 
 ### advtrains\_freight\_train
 A set of rollingstock for advtrains. Adds a reclaimable blue diesel engine with a top speed of 32 km/h, and freight wagons with models for gravel (ballast) wagons, lava wagons, train tracks and a wagon with a big log. 
 
 * Mod author: mbb
 * LinuxForks maintainer: Smacker
+* See advtrains\_freight\_train/README.md for more information.
+* Licence: CC-BY-SA-3.0
 
 ### advtrains\_livery\_tools
 User-friendly tools for applying liveries (paint schemes etc.) to AdvTrains
@@ -113,6 +119,8 @@ wagons that support it. Used as a library mod for classic coaches.
 * Mod author: Marnack
 * [ContentDB](https://content.minetest.net/packages/Marnack/classic_coaches/)
 * See advtrains\_livery\_tools/README.md for more information.
+* Licence: AGPL-3.0-or-later
+* Media Licence: CC-BY-SA-3.0
 
 ### advtrains\_platform
 Adds a lot more options for materials to make platforms for the advtrains mod on top of the default sandstone and stone brick. Also adds 'level crossing' nodes (available in a few materilas) which are long flat nodes that cover tracks to give the look that the tracks are embedded in a road surface.
@@ -122,6 +130,7 @@ This pack uses the fork by W3RQ01 which adds support for additional mods.
 * Mod author: Och\_Nö
 * Fork maintainer: W3RQ01
 * 45 degree platforms designed by Och\_Nö and model made by Blockhead.
+* Licence: LGPL-2.1-only
 
 ### animalworld
 Chopped up Fork of Wilhelmine's Animal World mod that adds just a kangaroo. The mod also includes a crocodile but I am using the one from mobs\_animal by Tenplus1 for that.
@@ -131,6 +140,10 @@ INVESTIGATE: crocodile?
 * Mod author: Wilhelmine/Skandarella
 * [Forum thread](https://forum.minetest.net/viewtopic.php?t=26194&p=389980)
 * AussieForks maintainer: Blockhead
+* Licence: MIT
+* Media Licence: MIT
+* Some media in the original mod were under CC licences, but none related to the
+kangaroo.
 
 ### apartment
 Allows users to rent a small area. The tenant is given access to place blocks in that area and over other protections like locked chests and doors.
@@ -139,6 +152,10 @@ Apartments have a category. Users can teleport to each of their apartment types 
 
 * Original mod author: Sokomine
 * LinuxForks maintainer: gpcf
+* Licence: FIXME unclear
+* Emojigit/1F616EMO has a fork which slaps GPL-3.0-or-later & CC-BY-SA-3.0
+on it. The code may be significantly different enough to consider a new work,
+but the assets seem to be direct copies.
 
 ### areas
 Allows users to protect areas from node destruction. The protection is rectangular-prism shaped. TODO: use Blockhead's own version with some command improvements.
@@ -148,11 +165,12 @@ There are two levels of user: regular users and those with the `areas` privilege
 * See areas/README.md for more information.
 * Mod author: ShadowNinja
 * With contributions by many others (see git logs)
+* Licence: LGPL-2.1-only
 
 ### atm
 A mod that allows players to keep an electronic bank balance. Players can deposit or withdraw from ATMs and send money to others with wire transfer terminals.
 
-TODO: There is a known issue where putting certain characters into a wire transfer message can result in failing to draw the interface for the transaction history if you are the sender or recipient of such a message. This is probably fixable with minetest.formspec_escape().  
+TODO: There is a known issue where putting certain characters into a wire transfer message can result in failing to draw the interface for the transaction history if you are the sender or recipient of such a message. This is probably fixable with minetest.formspec\_escape().  
 
 TODO: Aussie ATMS:
 * Tier 1: $20 and $50 withdrawals only, stacks of 1 or 5 . Basic button texture.
@@ -165,18 +183,23 @@ See atm/README.md for more information.
 
 * Mod author: gpcf
 * Additions by: Smacker
+* Licence: WTFPL
+* Media Licence: WTFPL
 
-### aussieforks_custom
+### aussieforks\_custom
 A mod for code not considered reusable outside of Aussieforks. Presently
 contains just a system for de-privileging service accounts.
 
 * Mod Author: Maverick2797
+* Licence: AGPL-3.0-only
 
 ### aussiesigns
 Adds various signs that could be found in Australia. So far just warning
 signs for dangerous wildlife.
 
 * Mod author: Blockhead
+* Licence: AGPL-3.0-or-later
+* Media Licence: CC-BY-SA-4.0
 
 ### australia
 Replaces the biomes with a variety Australian ones with Australian grasses, trees and modified ore deposits.
@@ -189,12 +212,18 @@ the mod for Minetest 5.5.1 (previously was targeted at 0.4.x). It now targets
 * Fixes by: Josselin2/axcore
 * Maintainers: Blockhead & Maverick2797 (Aussieforks)
 * [Forum thread](https://forum.minetest.net/viewtopic.php?f=9&t=14412) 
+* Licence: GPL-3.0
+* Media Licence: CC-BY-SA-3.0
+* The code is constituted of various sources, the most restrictive of which is
+given - valleys mapgen code by Gaël de Sailly. The majority by V. Lapsley
+himself is under BSD-2-Clause.
 
-### auth_export
+### auth\_export
 A component in two parts: A CGI script and a minetest mod. Together they facilitate authenticating minetest users externally to other programs. This is used to authenticate mediawiki users on the [LinuxForks Wiki](https://li-fo.de/wiki).
 
-* See auth_export/README.md for more information.
+* See auth\_export/README.md for more information.
 * Author: gpcf, with reference to Thomas Rudin's minetest webmail mod (see authexport/README.md for authorship).
+* Licence: FIXME unclear. 
 
 ### bakedclay
 A rudimentary mod that allows player to bake clay into hardened blocks and stain those blocks with dyes. All of the baked clay blocks can be made into stairs and slabs as well. 
